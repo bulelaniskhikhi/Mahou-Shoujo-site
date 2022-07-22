@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+img {
+    height: 90vh;
+    max-width: 100%;
+    z-index: 1;
+}
+
+#textLanding{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+
+    font-size: 7rem;
+    /* background-color: blueviolet; */
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    left: 80px;
+}
+
+#textLanding2{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    font-size: 7rem;
+    /* background-color: blueviolet; */
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    right: 200px;
+}
+
+#deeznutz{
+    margin: 0;
+    padding: 0;
+}
+
+#quandale{
+    margin: 0;
+    padding: 0;
+}
+
+#NanaLanding{
+    position: relative;
+}
+
+.container{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
